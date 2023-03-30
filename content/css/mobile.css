@@ -1,0 +1,188 @@
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .princial-banner .box-slide {
+        height: 680px;
+        padding: 99px 0;
+    }
+    
+}
+
+@media(min-width: 1200px) and (max-width: 1600px) {}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .topo-info-redes li i {
+        margin-right: 0px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 18px;
+        padding: 34px 0;
+        margin: 0 6px;
+    }
+    .princial-banner .box-slide {
+        height: 660px;
+        padding: 99px 0;
+    }
+    .princial-banner .slick-dots {
+        margin-left: 35%;
+    }
+    .princial-banner .box-slide h2 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .princial-banner .box-slide p {
+        line-height: 27px;
+        margin-bottom: 38px;
+        margin-right: 0;
+    }
+    .princial-banner .box-slide a {
+        font-size: 17px;
+    }
+    
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .topo-info-redes li i {
+        margin-right: 0px;
+    }
+    .bg-topo-info-amarelo {
+        display: none;
+    }
+    .bg-topo-info {
+        background: #389244;
+    }
+    .bg-topo-info-amarelo {
+        width: 220px;
+    }
+    .bg-topo-info-amarelo p {
+        font-size: 15px;
+    }
+    img.logo {
+        width: 165px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        padding: 23px 0px;
+        margin: 0 2px;
+    }
+    /***/
+    /***/
+    .princial-banner .box-slide {
+        height: 660px;
+        padding: 99px 0;
+    }
+    .princial-banner .slick-dots {
+        margin-left: 35%;
+    }
+    .princial-banner .box-slide h2 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .princial-banner .box-slide p {
+        line-height: 27px;
+        margin-bottom: 38px;
+        margin-right: 0;
+    }
+    .princial-banner .box-slide a {
+        font-size: 17px;
+    }
+    .navbar-default {
+        height: 83px;
+    }
+    /***/
+     
+}
+
+@media(min-width: 541px) and (max-width: 767px) {}
+
+@media(min-width: 0px) and (max-width: 540px) {}
+
+@media(min-width: 0px) and (max-width: 767px) {
+    .bg-topo-info {
+        display: none;
+    }
+    img.logo {
+        width: 173px;
+    }
+    .navbar-header {
+        float: right;
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .navbar-collapse {
+        padding: 0;
+        float: initial;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        right: 0;
+        margin: 0;
+        height: calc(100vh - 105px);
+        top: 88px;
+    }
+    .container>.navbar-collapse {
+        margin-right: 0px;
+        margin-left: 0px;
+        background: white;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 11px 5px;
+        margin: 0;
+        text-align: center;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #006228;
+    }
+    .navbar-default .navbar-toggle {
+        border: 2px solid #006228;
+        border-radius: 100px;
+        height: 46px;
+        width: 46px;
+    }
+    .princial-banner .box-slide {
+        height: auto;
+        padding: 25px 0 95px 0;
+        min-height: 560px;
+    }
+    .princial-banner .slick-dots {
+        top: inherit;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        bottom: -50px;
+    }
+    .princial-banner .box-slide h2 {
+        font-size: 31px;
+        line-height: 33px;
+        margin-bottom: 47px;
+        text-align: center;
+    }
+    .princial-banner .box-slide p {
+        line-height: 22px;
+        margin-bottom: 38px;
+        margin-right: 0;
+        letter-spacing: 0.5px;
+    }
+    .princial-banner .box-slide a {
+        font-size: 17px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .princial-banner .slick-dots li a::after {
+        display: none;
+    }
+    .princial-banner .box-slide h2::after {
+        bottom: -15px;
+        left: 0;
+        margin: 0 auto;
+        display: block;
+        right: 0;
+    }
+    /***/
+   
+}
+
+@media(min-width: 0px) and (max-width: 991px) {}
