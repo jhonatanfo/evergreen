@@ -596,7 +596,7 @@ body {
 /************/
 
 .our-car {
-  padding: 100px 0 70px 0;
+  padding: 100px 0 125px 0;
 }
 
 .our-car h3 {
@@ -671,12 +671,7 @@ body {
   margin-bottom: 0;
 }
 .our-car-box p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 29px;
   /* or 180% */
-  color: #757f95;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -684,6 +679,7 @@ body {
   /* or 180% */
   text-align: center;
   color: #00a859;
+  margin-bottom: 0;
 }
 .our-car-box button {
   font-style: normal;
@@ -755,6 +751,211 @@ body {
   float: right;
   display: block;
 }
+
+/******/
+
+.our-awesome-bottom {
+  height: 355px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 27px 26px;
+}
+.our-awesome-bottom img {
+  margin: 0 auto;
+  display: block;
+}
+.our-awesome-bottom h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #111111;
+}
+.our-awesome-bottom p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #757f95;
+}
+
+.our-awesome-bottom.margem {
+  margin-top: 50px;
+}
+
+.our-car-box-detail {
+  background: url(../img/our-car-box-detail.png);
+  background-size: cover;
+  height: 371.97px;
+  border-radius: 20px;
+  padding-top: 1px;
+  padding: 5px 20px 0 20px;
+  margin-top: 56px;
+}
+.our-car-box-detail img {
+  margin: 0 auto;
+  display: block;
+  margin-top: -50px;
+  width: 90px;
+  margin-bottom: 14px;
+  border-radius: 100px;
+}
+.our-car-box-detail ul {
+  padding: 0;
+}
+.our-car-box-detail ul li {
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 180% */
+  color: #ffffff;
+}
+.our-car-box-detail ul li span {
+  text-align: right;
+}
+.our-car-box-detail button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #111111;
+  background: #00a859;
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  height: 49px;
+  text-align: center;
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+}
+
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+.our-awesome {
+  margin-top: 100px;
+  background: url(../img/our-awesome.jpg);
+  width: 100%;
+  padding: 100px 0;
+}
+
+.our-awesome .titulo h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #00a859;
+  margin: 0;
+  margin-top: 70px;
+}
+
+.our-awesome .titulo h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.our-awesome-top-bg {
+  background: url(../img/our-awesome-top-bg.png);
+  padding: 35px 0;
+  background-size: cover;
+  border-radius: 30px;
+  margin-top: -230px;
+}
+
+.our-awesome-top {
+}
+
+.our-awesome-top img {
+  margin: 0 auto;
+  display: block;
+}
+
+.our-awesome-top h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.our-awesome-top p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/ /**********************************/ /**********************************/ /**********************************/
+/**********************************/ /**********************************/ /**********************************/
+/**********************************/ /**********************************/
+/**********************************/
 
 footer {
   background-color: #111111;
@@ -840,8 +1041,9 @@ footer .segundo-box ul li i {
 }
 
 /* ----------- */
-footer .terceiro-box  {}
-footer .terceiro-box h2  {
+footer .terceiro-box {
+}
+footer .terceiro-box h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 21px;
@@ -852,36 +1054,37 @@ footer .terceiro-box h2  {
   color: #ffffff;
   margin-bottom: 23px;
 }
-footer .terceiro-box p  {
+footer .terceiro-box p {
   font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 29px;
-/* or 180% */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 180% */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
-footer .terceiro-box input  {
+footer .terceiro-box input {
   width: 100%;
   height: 56px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 12px;
   padding: 15px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-/* identical to box height */
+  /* identical to box height */
   display: flex;
   align-items: center;
-  color: #6C757D;
+  color: #6c757d;
   height: 62px;
   margin-bottom: 23px;
 }
-footer .terceiro-box button  {
+
+footer .terceiro-box button {
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -897,11 +1100,11 @@ footer .terceiro-box button  {
   border: none;
   width: 100%;
 }
- 
+
 /* --------: */
 
-footer .fotter-bottom{
+/* footer .fotter-bottom{
   ba
 }
 footer .fotter-bottom p{}
-footer .fotter-bottom-verde{}
+footer .fotter-bottom-verde{} */
